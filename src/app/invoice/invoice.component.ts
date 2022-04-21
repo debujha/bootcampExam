@@ -32,11 +32,7 @@ export class InvoiceComponent implements OnInit {
 		privileged: false
 	};
 	client: company = {
-		name: 'Global Client',
-		address: '456 North St., Ahmedabad, Gujarat 380001',
-		contact: 9004567890,
-		email: 'tested@client.com',
-		privileged: true
+		
 	};
 
 	invoiceInfo: invoice = {
@@ -46,18 +42,7 @@ export class InvoiceComponent implements OnInit {
 		currency: 'INR'
 	};
 	billItems: bill[] = [
-		{
-			item: "Microsoft Office",
-			task: "Microsoft Office suite installation",
-			hours: 2,
-			rate: 120
-		},
-		{
-			item: "Oracle SQL developer",
-			task: "SQL developer installation",
-			hours: 1,
-			rate: 140
-		},
+		// Write a json for the billing item
 	];
 
 
