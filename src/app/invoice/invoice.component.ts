@@ -94,7 +94,6 @@ export class InvoiceComponent implements OnInit {
 	}
 
 	onSelect(i) {
-		this.billItems = this.billItems.filter(itm => itm.item !== i.item);
 		//delete selected item from list       
 	}
 
